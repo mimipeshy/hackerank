@@ -14,6 +14,9 @@ def simpleArraySum(ar)
     # Write your code here
 
     ar.inject(0){ |sum, x| sum + x }  
+
+    #solution two
+    ar.sum;
 end
 
 fptr = File.open(ENV['OUTPUT_PATH'], 'w')
